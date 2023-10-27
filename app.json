@@ -1,0 +1,11 @@
+{
+  "name": "screen_navigation",
+  "displayName": "screen_navigation",
+  "expo": {
+    "extra": {
+      "eas": {
+        "projectId": "8fc4d9b4-2e88-4f41-9eb6-c5aea2012987"
+      }
+    }
+  }
+}
