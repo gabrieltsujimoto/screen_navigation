@@ -11,7 +11,7 @@ export default function App_Routes() {
         <>
             <NavigationContainer >
                 <Tab.Navigator>
-                    <Tab.Screen name="Produtor" component={Produtor_routes} />
+                    <Tab.Screen name="Produtor_routes" component={Produtor_routes} />
                     <Tab.Screen name="Melhores Produtores" component={MelhoresProdutores} />
                 </Tab.Navigator>
             </NavigationContainer>
