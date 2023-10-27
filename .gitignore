@@ -1,3 +1,8 @@
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
 # Expo
 .expo
 __generated__
@@ -6,11 +11,6 @@ bare-apps
 
 # macOS
 .DS_Store
-
-# Node
-node_modules
-npm-debug.log
-yarn-error.log
 
 # Ruby
 .direnv
