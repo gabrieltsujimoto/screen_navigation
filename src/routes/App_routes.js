@@ -1,18 +1,18 @@
 import React from 'react';
-import MelhoresProdutores from '../../src/telas/MelhoresProdutores';
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import Produtor_routes from "./Produtor_routes"
+import MelhoresProdutores_routes from './MelhoresProdutores_routes';
 
 const Tab = createBottomTabNavigator();
 
-export default function App_Routes() {
+export default function App_routes() {
     return (
         <>
             <NavigationContainer >
-                <Tab.Navigator>
-                    <Tab.Screen name="Produtor_routes" component={Produtor_routes} />
-                    <Tab.Screen name="Melhores Produtores" component={MelhoresProdutores} />
+                <Tab.Navigator screenOptions={{headerShown:false} }>
+                    <Tab.Screen name="Home" component={Produtor_routes} />
+                    <Tab.Screen name="Melhores Produtores" component={MelhoresProdutores_routes} />
                 </Tab.Navigator>
             </NavigationContainer>
         </>
