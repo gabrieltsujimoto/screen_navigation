@@ -27,7 +27,13 @@ export default function Produtor() {
     }
 
     return (
-        <FlatList style={estilos.lista} ListHeaderComponent={TopoCesta} data={cestas} renderItem={({ item }) => <Cesta {...item} produtor={{ nome, imagem }} />} />
+        <FlatList
+            style={estilos.lista}
+            ListHeaderComponent={TopoCesta}
+            data={cestas}
+            renderItem={
+                ({ item }) => <Cesta {...item} produtor={{ nome, imagem }} />
+            } />
     )
 }
 
