@@ -8042,6 +8042,15 @@ pkg-up@^3.1.0:
   dependencies:
     find-up "^3.0.0"
 
+pkg.json@^2.0.8:
+  version "2.0.8"
+  resolved "https://registry.yarnpkg.com/pkg.json/-/pkg.json-2.0.8.tgz#c9f2eb465622a86b2d532eeb9f3cd96697064dc1"
+  integrity sha512-iIBceNPwO452wLbF73GCV5z/TY9UydLWEV+wBjegAObPF/PihDL9ZUr2g2EFI7XqPFMTLEX/QtL63Z+zzFZ7yA==
+  dependencies:
+    git-package-json "^1.4.0"
+    git-source "^1.1.0"
+    package-json "^2.3.1"
+
 plist@^3.0.5:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/plist/-/plist-3.1.0.tgz#797a516a93e62f5bde55e0b9cc9c967f860893c9"
