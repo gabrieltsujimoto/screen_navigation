@@ -17,16 +17,19 @@ export default function App_routes() {
                         headerShown: false,
                         tabBarActiveTintColor: '#2a9f85',
                         tabBarInactiveTintColor: '#c7c7c7',
-                        tabBarLabelStyle:{
+                        tabBarLabelStyle: {
                             fontSize: 15,
-                            fontWeight: 'bold'
+                            fontWeight: 'bold',
+                        },
+                        tabBarIconStyle: {
+                            border: "1px solid black"
                         },
                         tabBarIcon: ({ color }) => {
                             let Icon = Homeicon;
-                            if(route.name === "Melhores Produtores"){
+                            if (route.name === "Melhores Produtores") {
                                 Icon = Hearticon
                             }
-                            return <Icon color={color}/>
+                            return <Icon color={color} />
                         }
                     })}>
                     <Tab.Screen name="Home" component={Produtor_routes} />

@@ -1,7 +1,6 @@
 import React from 'react';
 import { Image, StyleSheet, View, TouchableOpacity } from 'react-native';
 import { useNavigation, useRoute } from '@react-navigation/native';
-import Check from './assets/check.json';
 
 import useTextos from '../../../hooks/useTextos';
 import Texto from '../../../componentes/Texto';
